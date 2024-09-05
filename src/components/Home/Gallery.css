@@ -1,0 +1,37 @@
+/* Gallery.css */
+.add-image-button {
+  
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.gallery-image {
+  width: 180px;  /* Set the width of each image */
+  height: 180px; /* Set the height of each image */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.custom-left-nav,
+.custom-right-nav {
+  background-color: transparent;
+  border: none;
+  gap: 10px;
+  font-size: 34px;
+  cursor: pointer;
+  color: #007bff;
+  z-index: 10; /* Ensure it's above other elements */
+}
