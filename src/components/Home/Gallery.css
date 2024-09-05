@@ -19,7 +19,7 @@
 }
 
 .gallery-image {
-  
+
   width: 180px;  
   height: 180px; 
   object-fit: cover;
@@ -34,5 +34,5 @@
   font-size: 34px;
   cursor: pointer;
   color: #007bff;
-  z-index: 10; /* Ensure it's above other elements */
+  z-index: 10; 
 }

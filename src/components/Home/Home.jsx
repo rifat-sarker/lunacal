@@ -43,10 +43,10 @@ const Home = () => {
   );
 
   return (
-    <div className="p-4">
+    <div className="p-8 bg-gradient-to-t from-[#373E44] to-[#191B1F] min-h-screen">
       <div className="flex">
         <div className="w-1/2"></div>
-        <div className="bg-[#363C43] text-[#969696] rounded-3xl relative w-[750px] ">
+        <div className="bg-[#363C43] text-[#969696] rounded-3xl relative w-[750px]">
           <div className="flex flex-col gap-4 justify-between absolute top-5 mx-2 h-1/2 ">
             <FaRegQuestionCircle size={25} />
             <HiMiniSquares2X2 size={25} />
@@ -104,6 +104,7 @@ const Home = () => {
           </Tabs>
         </div>
       </div>
+
       <div className="flex my-8">
         <div className="w-1/2"></div>
         <div className="bg-[#363C43] text-[#969696] rounded-3xl relative w-[750px]">
